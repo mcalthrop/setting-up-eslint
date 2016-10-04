@@ -1,0 +1,24 @@
+{
+  "root": true,
+  "extends": "airbnb",
+  "env": {
+    "es6": true
+  },
+  "rules": {
+    "block-spacing": [2, "always"],
+    "brace-style": [2, "1tbs"],
+    "curly": [2, "all"],
+    "func-names": 0,
+    "import/no-unresolved": 0,
+    "indent": [2, 4, { "SwitchCase": 1 }],
+    "max-len": [0, 120],
+    "new-parens": 2,
+    "new-cap": 1,
+    "no-console": [1, {"allow": ["dir", "info", "warn", "error"]}],
+    "no-underscore-dangle": 0,
+    "no-param-reassign": 0,
+    "no-use-before-define": [2, { "functions": false, "classes": true }],
+    "object-curly-spacing": [2, "never"],
+    "semi": [2, "always"]
+  }
+}

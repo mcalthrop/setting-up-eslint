@@ -1,0 +1,19 @@
+{
+  "name": "setting-up-eslint",
+  "version": "1.0.0",
+  "description": "Some basic instructions for setting up eslint",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.6.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0"
+  },
+  "scripts": {
+    "eslint": "eslint src/js/**/*.js"
+  },
+  "author": "Matt Calthrop <mcalthrop@gmail.com>",
+  "license": "ISC"
+}
